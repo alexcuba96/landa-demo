@@ -1,5 +1,5 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  base: '/',
+  publicPath: '/landa-demo/',
   transpileDependencies: true
 })
